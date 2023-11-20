@@ -1,0 +1,35 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.choicesContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0%;
+    width: 460px;
+    justify-content: space-between;
+}
+.item{
+    flex: 0 0 calc(40% - 10px);
+    box-sizing: border-box;
+    justify-content: center;
+    flex-grow: 0.5;
+    display: flex;
+    margin: 5px;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}

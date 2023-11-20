@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: 0px;
+    padding: 10px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #8446D4 34.23%, rgba(0, 0, 0, 0.71) 74.6%);
+}
+
+.profileContainer{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.profilePicture{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}

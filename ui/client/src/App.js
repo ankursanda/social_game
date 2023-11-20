@@ -3,7 +3,7 @@ import Navbar from './Components/Navbar'
 import Flag from './Components/Flag'
 import RankCard from './Components/RankCard';
 import ScoreCard from './Components/ScoreCard';
-
+import styles from './styles/App.module.css';
 
 const App = () => {
   
